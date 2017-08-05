@@ -1,12 +1,14 @@
 # README #
 
-This package contains two data sets from the Italian Survey on Household and Wealth, 2008 and 2010, a sample survey conducted by the Bank of Italy every two years.
+This package contains two data sets from the Italian Survey on Household and Wealth, 2008 and 2010, a sample survey conducted by the Bank of Italy every two years. 
 
 * `italy08`: The 2010 survey covered 13,702 individuals. 
 
 * `italy10`: The 2010 survey covered 13,702 individuals, while the 2008 survey covered 13,734 individuals. 
 
-Both data sets contain the following categorical variables that can be used to perform record linkage. The variables are given in italian and we translate them in English. 
+Source: (https://www.bancaditalia.it/pubblicazioni/indagine-famiglie/bil-fam2012/index.html?com.dotmarketing.htmlpage.language=1)
+
+Both data sets contain the following categorical variables that can be used to perform record linkage. The variables are given in Italian and we translate them in English. 
 
 * ANASC (year of birth) 
 * NASCREG (working status)
@@ -19,6 +21,8 @@ Both data sets contain the following categorical variables that can be used to p
 * SETT (highest educational level obtained)
 * Q (what is this)
 * id (unique identifier based upon a type of social security identifier that is thought to be very reliable). 
+
+Please see Steorts (2015) <DOI:10.1214/15-BA965SI> for more information about this data set or performing record linkage. 
 
 ## Installation
 
