@@ -1,29 +1,31 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This package contains two data sets from the Italian Survey on Household and Wealth, 2008 and 2010, a sample survey conducted by the Bank of Italy every two years.
 
-### What is this repository for? ###
+* `italy08`: The 2010 survey covered 13,702 individuals. 
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* `italy10`: The 2010 survey covered 13,702 individuals, while the 2008 survey covered 13,734 individuals. 
 
-### How do I get set up? ###
+Both data sets contain the following categorical variables that can be used to perform record linkage. The variables are given in italian and we translate them in English. 
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* ANASC (year of birth) 
+* NASCREG (working status)
+* CIT (employment status)
+* ACOM4C (branch of activity)
+* STUDIO (town size)
+* IREG (geographical area of birth)
+* SEX sex
+* QUAL (whether or not Italian national)
+* SETT (highest educational level obtained)
+* Q (what is this)
+* id (unique identifier based upon a type of social security identifier that is thought to be very reliable). 
 
-### Contribution guidelines ###
+## Installation
 
-* Writing tests
-* Code review
-* Other guidelines
+```R
+# Install the released version from CRAN
+install.packages(“italy”)
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+# Install the development version from GitHub
+devtools::install_github(“resteorts/italy”)
+```
