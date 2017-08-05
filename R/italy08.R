@@ -3,13 +3,19 @@
 #' The 2008 survey on covered 13,734 Italian Survey on Household and Wealth
 #' covering individuals. 
 #'
-#' @docType data
+#' @docType italy08
 #'
-#' @usage data(grav)
+#' @usage data(italy08)
 #'
-#' @format A data frame with 11 variables: \code{parent}, \code{sex}, \code{anasc}, \code{nascreg}, 
-#' \code{cit}, \code{acom4c}, \code{studio}, code{q}, code{qual}, code{sett}, code{ireg}. There 
-#' is an additional variable \code{id} that is the unique identifier for the data set.
+#' @format A data frame with 11 variables: \code{parent}, \code{sex}, \code{anasc}, \code{nascreg}, ' \code{cit}, \code{acom4c}, \code{studio}, code{q}, code{qual}, code{sett}, code{ireg}. There is an additional variable \code{id} that is the unique identifier for the data set.
+
+#' Common models
+#' 
+#' This data set has one year's worth of data.
+#' This data set joined with another year's worth of 
+#' is appropriate for performing various types of record linkage
+#' and can be assessed by standard record linkage methods. 
+
 #'
 #' @keywords datasets, record linkage, entity resolution
 #'
@@ -18,4 +24,5 @@
 #'
 #'
 #' @examples
-#' ATTN: Add in an example.
+#' data(italy08)
+"italy08"
