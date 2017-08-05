@@ -1,6 +1,6 @@
 # README #
 
-We provide two data sets from the Italian Survey on Household and Wealth, 2008 and 2010, a sample survey conducted by the Bank of Italy every two years. 
+Provides two data sets from the Italian Survey on Household and Wealth, 2008 and 2010, a sample survey conducted by the Bank of Italy every two years. 
 
 * `italy08`: The 2010 survey covered 13,702 individuals. 
 
