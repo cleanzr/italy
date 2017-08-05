@@ -16,7 +16,7 @@ Both data sets contain the following categorical variables that can be used to p
 * ACOM4C (branch of activity)
 * STUDIO (town size)
 * IREG (geographical area of birth)
-* SEX sex
+* SEX (sex)
 * QUAL (whether or not Italian national)
 * SETT (highest educational level obtained)
 * Q (what is this)
