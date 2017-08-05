@@ -1,6 +1,6 @@
 # README #
 
-This package contains two data sets from the Italian Survey on Household and Wealth, 2008 and 2010, a sample survey conducted by the Bank of Italy every two years. 
+We provide two data sets from the Italian Survey on Household and Wealth, 2008 and 2010, a sample survey conducted by the Bank of Italy every two years. 
 
 * `italy08`: The 2010 survey covered 13,702 individuals. 
 
@@ -22,7 +22,7 @@ Both data sets contain the following categorical variables that can be used to p
 * Q (quality of life status)
 * id (unique identifier based upon a type of social security identifier that is thought to be very reliable). 
 
-Please see Steorts (2015) <DOI:10.1214/15-BA965SI> for more information about this data set or performing record linkage. 
+Please see Steorts (2015)for more information about this data set or performing record linkage. 
 
 ## Installation
 
