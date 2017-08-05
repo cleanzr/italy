@@ -19,7 +19,7 @@ Both data sets contain the following categorical variables that can be used to p
 * SEX (sex)
 * QUAL (whether or not Italian national)
 * SETT (highest educational level obtained)
-* Q (what is this)
+* Q (quality of life status)
 * id (unique identifier based upon a type of social security identifier that is thought to be very reliable). 
 
 Please see Steorts (2015) <DOI:10.1214/15-BA965SI> for more information about this data set or performing record linkage. 
